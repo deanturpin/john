@@ -1,5 +1,6 @@
-FROM kalilinux/kali-linux-docker
-RUN apt update
-RUN apt install -y john
-RUN apt install -y curl
-CMD keepass2john <(curl https://deanturpin.github.io/john/easy.kdbx)
+FROM alpine
+RUN apk add john
+RUN apk add curl
+RUN apk add bash
+RUN curl https://deanturpin.github.io/john/easy.kdbx > easy.kdbx
+CMD keepass2john easy.kdbx | tee shadow && john shadow

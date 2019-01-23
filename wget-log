@@ -1,20 +1,0 @@
---2019-01-21 12:38:53--  https://github.com/deanturpin/john/blob/master/easy.kdbx?raw=true
-Resolving github.com (github.com)... 140.82.118.4, 140.82.118.3
-Connecting to github.com (github.com)|140.82.118.4|:443... connected.
-HTTP request sent, awaiting response... 302 Found
-Location: https://github.com/deanturpin/john/raw/master/easy.kdbx [following]
---2019-01-21 12:38:53--  https://github.com/deanturpin/john/raw/master/easy.kdbx
-Reusing existing connection to github.com:443.
-HTTP request sent, awaiting response... 302 Found
-Location: https://raw.githubusercontent.com/deanturpin/john/master/easy.kdbx [following]
---2019-01-21 12:38:53--  https://raw.githubusercontent.com/deanturpin/john/master/easy.kdbx
-Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 151.101.0.133, 151.101.64.133, 151.101.128.133, ...
-Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|151.101.0.133|:443... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: 1870 (1.8K) [application/octet-stream]
-Saving to: ‘easy.kdbx?raw=true’
-
-easy.kdbx?raw=true                            0%[                                                                                            ]       0  --.-KB/s               easy.kdbx?raw=true                          100%[===========================================================================================>]   1.83K  --.-KB/s    in 0s      
-
-2019-01-21 12:38:53 (32.9 MB/s) - ‘easy.kdbx?raw=true’ saved [1870/1870]
-
