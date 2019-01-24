@@ -7,4 +7,4 @@ run:
 	docker run --rm -it john
 
 install:
-	apt install -i docker.io
+	apt install -y docker.io
